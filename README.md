@@ -4,4 +4,4 @@ The goal of this project was to create an Airbnb Online Experiences page with pr
 
 --Justin Hibbard
 
-![image](https://github.com/justinhibb97/react-airbnb-online-experiences/assets/34048736/ae59fbd4-98e5-4d64-a8d9-5a22a779fceb)
+![image](https://github.com/justinhibb97/react-airbnb-online-experiences/assets/34048736/dae8e979-b855-41f1-8e6b-9f28c4946e56)
