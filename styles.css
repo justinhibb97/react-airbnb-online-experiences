@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+  width: 100%;
+  height: 70px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001A;
+  display: flex;
+  align-items: center;
+  padding: 20px 36px;
+}
+
+.nav--logo {
+  width: 82px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 36px;
+  width: 550px;
+}
+
+.hero--image {
+  align-self: center;
+  width: 395px;
+  height: 232px;
+}
+
+.hero--header {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+
+.hero--paragraph {
+  margin-top: 0;
+  width: 320px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+  padding-right: 4px;
+  font-weight: 300;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 176px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 36px;
+  position: relative;
+}
+
+.card--image {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card--status {
+  position: absolute;
+  top: -2px;
+  left: 43px;
+  color: #222222;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  text-align: center;
+  background-color: white;
+  width: 61px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #222222;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  width: 176px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+  margin-bottom: -4px;
+}
+
+.card--star {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+  margin-bottom: 2px;
+}
+
+.card--rating {
+  color: #222222;
+  font-weight: 300;
+  padding-right: 2px;
+}
+
+.card--price {
+  margin-top: 2px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 0px;
+}
